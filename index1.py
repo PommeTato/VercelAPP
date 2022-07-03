@@ -8,3 +8,7 @@ def home():
     
 if __name__== "__main__":
     app.run()
+
+@app.route("/jacob")
+def name():
+    return "Hello, Jacob!"
